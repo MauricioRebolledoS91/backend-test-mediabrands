@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\mbww.test.Api.props" />
+</Project>

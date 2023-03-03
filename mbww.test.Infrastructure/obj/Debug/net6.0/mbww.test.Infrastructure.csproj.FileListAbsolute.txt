@@ -1,0 +1,17 @@
+C:\Users\57311\source\repos\mbww.test\mbww.test.Infrastructure\bin\Debug\net6.0\mbww.test.Infrastructure.deps.json
+C:\Users\57311\source\repos\mbww.test\mbww.test.Infrastructure\bin\Debug\net6.0\mbww.test.Infrastructure.dll
+C:\Users\57311\source\repos\mbww.test\mbww.test.Infrastructure\bin\Debug\net6.0\mbww.test.Infrastructure.pdb
+C:\Users\57311\source\repos\mbww.test\mbww.test.Infrastructure\bin\Debug\net6.0\mbww.test.Application.dll
+C:\Users\57311\source\repos\mbww.test\mbww.test.Infrastructure\bin\Debug\net6.0\mbww.test.Domain.dll
+C:\Users\57311\source\repos\mbww.test\mbww.test.Infrastructure\bin\Debug\net6.0\mbww.test.Application.pdb
+C:\Users\57311\source\repos\mbww.test\mbww.test.Infrastructure\bin\Debug\net6.0\mbww.test.Domain.pdb
+C:\Users\57311\source\repos\mbww.test\mbww.test.Infrastructure\obj\Debug\net6.0\mbww.test.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\57311\source\repos\mbww.test\mbww.test.Infrastructure\obj\Debug\net6.0\mbww.test.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\57311\source\repos\mbww.test\mbww.test.Infrastructure\obj\Debug\net6.0\mbww.test.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\57311\source\repos\mbww.test\mbww.test.Infrastructure\obj\Debug\net6.0\mbww.test.Infrastructure.AssemblyInfo.cs
+C:\Users\57311\source\repos\mbww.test\mbww.test.Infrastructure\obj\Debug\net6.0\mbww.test.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\57311\source\repos\mbww.test\mbww.test.Infrastructure\obj\Debug\net6.0\mbww.test.Infrastructure.csproj.CopyComplete
+C:\Users\57311\source\repos\mbww.test\mbww.test.Infrastructure\obj\Debug\net6.0\mbww.test.Infrastructure.dll
+C:\Users\57311\source\repos\mbww.test\mbww.test.Infrastructure\obj\Debug\net6.0\refint\mbww.test.Infrastructure.dll
+C:\Users\57311\source\repos\mbww.test\mbww.test.Infrastructure\obj\Debug\net6.0\mbww.test.Infrastructure.pdb
+C:\Users\57311\source\repos\mbww.test\mbww.test.Infrastructure\obj\Debug\net6.0\ref\mbww.test.Infrastructure.dll

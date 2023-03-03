@@ -1,0 +1,12 @@
+C:\Users\57311\source\repos\mbww.test\mbww.test.Domain\bin\Debug\net6.0\mbww.test.Domain.deps.json
+C:\Users\57311\source\repos\mbww.test\mbww.test.Domain\bin\Debug\net6.0\mbww.test.Domain.dll
+C:\Users\57311\source\repos\mbww.test\mbww.test.Domain\bin\Debug\net6.0\mbww.test.Domain.pdb
+C:\Users\57311\source\repos\mbww.test\mbww.test.Domain\obj\Debug\net6.0\mbww.test.Domain.csproj.AssemblyReference.cache
+C:\Users\57311\source\repos\mbww.test\mbww.test.Domain\obj\Debug\net6.0\mbww.test.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\57311\source\repos\mbww.test\mbww.test.Domain\obj\Debug\net6.0\mbww.test.Domain.AssemblyInfoInputs.cache
+C:\Users\57311\source\repos\mbww.test\mbww.test.Domain\obj\Debug\net6.0\mbww.test.Domain.AssemblyInfo.cs
+C:\Users\57311\source\repos\mbww.test\mbww.test.Domain\obj\Debug\net6.0\mbww.test.Domain.csproj.CoreCompileInputs.cache
+C:\Users\57311\source\repos\mbww.test\mbww.test.Domain\obj\Debug\net6.0\mbww.test.Domain.dll
+C:\Users\57311\source\repos\mbww.test\mbww.test.Domain\obj\Debug\net6.0\refint\mbww.test.Domain.dll
+C:\Users\57311\source\repos\mbww.test\mbww.test.Domain\obj\Debug\net6.0\mbww.test.Domain.pdb
+C:\Users\57311\source\repos\mbww.test\mbww.test.Domain\obj\Debug\net6.0\ref\mbww.test.Domain.dll
