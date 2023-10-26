@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\SalesDatePrediction.test.Api.props" />
+</Project>

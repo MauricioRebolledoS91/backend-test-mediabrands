@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SalesDatePrediction.test.Domain/1.0.0": {
+        "runtime": {
+          "SalesDatePrediction.test.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SalesDatePrediction.test.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

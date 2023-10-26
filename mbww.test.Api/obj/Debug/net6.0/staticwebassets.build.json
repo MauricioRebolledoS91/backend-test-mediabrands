@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "8S+ztb50hK7SCq5HagGIkmaoKQgUA9dbFfBDQB9sVwo=",
-  "Source": "mbww.test.Api",
-  "BasePath": "_content/mbww.test.Api",
+  "Hash": "iRm4WMQF4qyB7a863xe2xIKMoeV2H5M9M8ZdCWdEwtU=",
+  "Source": "SalesDatePrediction.test.Api",
+  "BasePath": "_content/SalesDatePrediction.test.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

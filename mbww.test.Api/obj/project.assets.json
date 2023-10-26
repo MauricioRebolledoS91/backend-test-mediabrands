@@ -1948,7 +1948,7 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "mbww.test.Application/1.0.0": {
+      "SalesDatePrediction.test.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -1956,40 +1956,40 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "FluentValidation": "10.3.4",
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
-          "mbww.test.Domain": "1.0.0"
+          "SalesDatePrediction.test.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/mbww.test.Application.dll": {}
+          "bin/placeholder/SalesDatePrediction.test.Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/mbww.test.Application.dll": {}
+          "bin/placeholder/SalesDatePrediction.test.Application.dll": {}
         }
       },
-      "mbww.test.Domain/1.0.0": {
+      "SalesDatePrediction.test.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/mbww.test.Domain.dll": {}
+          "bin/placeholder/SalesDatePrediction.test.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/mbww.test.Domain.dll": {}
+          "bin/placeholder/SalesDatePrediction.test.Domain.dll": {}
         }
       },
-      "mbww.test.Infrastructure/1.0.0": {
+      "SalesDatePrediction.test.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.12",
           "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "5.0.0",
-          "mbww.test.Application": "1.0.0",
-          "mbww.test.Domain": "1.0.0"
+          "SalesDatePrediction.test.Application": "1.0.0",
+          "SalesDatePrediction.test.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/mbww.test.Infrastructure.dll": {}
+          "bin/placeholder/SalesDatePrediction.test.Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/mbww.test.Infrastructure.dll": {}
+          "bin/placeholder/SalesDatePrediction.test.Infrastructure.dll": {}
         }
       }
     }
@@ -6521,46 +6521,51 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "mbww.test.Application/1.0.0": {
+    "SalesDatePrediction.test.Application/1.0.0": {
       "type": "project",
-      "path": "../mbww.test.Application/mbww.test.Application.csproj",
-      "msbuildProject": "../mbww.test.Application/mbww.test.Application.csproj"
+      "path": "../mbww.test.Application/SalesDatePrediction.test.Application.csproj",
+      "msbuildProject": "../mbww.test.Application/SalesDatePrediction.test.Application.csproj"
     },
-    "mbww.test.Domain/1.0.0": {
+    "SalesDatePrediction.test.Domain/1.0.0": {
       "type": "project",
-      "path": "../mbww.test.Domain/mbww.test.Domain.csproj",
-      "msbuildProject": "../mbww.test.Domain/mbww.test.Domain.csproj"
+      "path": "../mbww.test.Domain/SalesDatePrediction.test.Domain.csproj",
+      "msbuildProject": "../mbww.test.Domain/SalesDatePrediction.test.Domain.csproj"
     },
-    "mbww.test.Infrastructure/1.0.0": {
+    "SalesDatePrediction.test.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../mbww.test.Infrastructure/mbww.test.Infrastructure.csproj",
-      "msbuildProject": "../mbww.test.Infrastructure/mbww.test.Infrastructure.csproj"
+      "path": "../mbww.test.Infrastructure/SalesDatePrediction.test.Infrastructure.csproj",
+      "msbuildProject": "../mbww.test.Infrastructure/SalesDatePrediction.test.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "MediatR >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.17",
-      "Swashbuckle.AspNetCore >= 6.2.3",
-      "mbww.test.Application >= 1.0.0",
-      "mbww.test.Domain >= 1.0.0",
-      "mbww.test.Infrastructure >= 1.0.0"
+      "SalesDatePrediction.test.Application >= 1.0.0",
+      "SalesDatePrediction.test.Domain >= 1.0.0",
+      "SalesDatePrediction.test.Infrastructure >= 1.0.0",
+      "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\57311\\.nuget\\packages\\": {}
+    "C:\\Users\\mauricio\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\57311\\source\\repos\\mbww.test\\mbww.test.Api\\mbww.test.Api.csproj",
-      "projectName": "mbww.test.Api",
-      "projectPath": "C:\\Users\\57311\\source\\repos\\mbww.test\\mbww.test.Api\\mbww.test.Api.csproj",
-      "packagesPath": "C:\\Users\\57311\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\57311\\source\\repos\\mbww.test\\mbww.test.Api\\obj\\",
+      "projectUniqueName": "C:\\CodificoTest\\backend-test-mediabrands\\mbww.test.Api\\SalesDatePrediction.test.Api.csproj",
+      "projectName": "SalesDatePrediction.test.Api",
+      "projectPath": "C:\\CodificoTest\\backend-test-mediabrands\\mbww.test.Api\\SalesDatePrediction.test.Api.csproj",
+      "packagesPath": "C:\\Users\\mauricio\\.nuget\\packages\\",
+      "outputPath": "C:\\CodificoTest\\backend-test-mediabrands\\mbww.test.Api\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\57311\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mauricio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6568,20 +6573,22 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\57311\\source\\repos\\mbww.test\\mbww.test.Application\\mbww.test.Application.csproj": {
-              "projectPath": "C:\\Users\\57311\\source\\repos\\mbww.test\\mbww.test.Application\\mbww.test.Application.csproj"
+            "C:\\CodificoTest\\backend-test-mediabrands\\mbww.test.Application\\SalesDatePrediction.test.Application.csproj": {
+              "projectPath": "C:\\CodificoTest\\backend-test-mediabrands\\mbww.test.Application\\SalesDatePrediction.test.Application.csproj"
             },
-            "C:\\Users\\57311\\source\\repos\\mbww.test\\mbww.test.Domain\\mbww.test.Domain.csproj": {
-              "projectPath": "C:\\Users\\57311\\source\\repos\\mbww.test\\mbww.test.Domain\\mbww.test.Domain.csproj"
+            "C:\\CodificoTest\\backend-test-mediabrands\\mbww.test.Domain\\SalesDatePrediction.test.Domain.csproj": {
+              "projectPath": "C:\\CodificoTest\\backend-test-mediabrands\\mbww.test.Domain\\SalesDatePrediction.test.Domain.csproj"
             },
-            "C:\\Users\\57311\\source\\repos\\mbww.test\\mbww.test.Infrastructure\\mbww.test.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\57311\\source\\repos\\mbww.test\\mbww.test.Infrastructure\\mbww.test.Infrastructure.csproj"
+            "C:\\CodificoTest\\backend-test-mediabrands\\mbww.test.Infrastructure\\SalesDatePrediction.test.Infrastructure.csproj": {
+              "projectPath": "C:\\CodificoTest\\backend-test-mediabrands\\mbww.test.Infrastructure\\SalesDatePrediction.test.Infrastructure.csproj"
             }
           }
         }
@@ -6628,7 +6635,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

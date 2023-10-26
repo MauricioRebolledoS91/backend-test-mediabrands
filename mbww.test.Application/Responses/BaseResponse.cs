@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace mbww.test.Application.Responses
+namespace SalesDatePrediction.test.Application.Responses
 {
     public class BaseResponse
     {

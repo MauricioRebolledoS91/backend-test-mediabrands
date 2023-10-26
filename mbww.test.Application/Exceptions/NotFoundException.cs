@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace mbww.test.Application.Exceptions
+namespace SalesDatePrediction.test.Application.Exceptions
 {
     public class NotFoundException : ApplicationException
     {

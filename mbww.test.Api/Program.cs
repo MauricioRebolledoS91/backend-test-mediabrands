@@ -1,5 +1,5 @@
-using mbww.test.Application;
-using mbww.test.Infrastructure;
+using SalesDatePrediction.test.Application;
+using SalesDatePrediction.test.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 

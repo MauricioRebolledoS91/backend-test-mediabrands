@@ -4,12 +4,12 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using mbww.test.Infrastructure.Context;
+using SalesDatePrediction.test.Infrastructure.Context;
 
-namespace mbww.test.Infrastructure.Migrations
+namespace SalesDatePrediction.test.Infrastructure.Migrations
 {
-    [DbContext(typeof(MbwwTestDbContext))]
-    partial class MbwwTestDbContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(SalesDatePredictionTestDbContext))]
+    partial class SalesDatePredictionTestDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
@@ -19,7 +19,7 @@ namespace mbww.test.Infrastructure.Migrations
                 .HasAnnotation("ProductVersion", "5.0.17")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("mbww.test.Domain.Entities.User", b =>
+            modelBuilder.Entity("SalesDatePrediction.test.Domain.Entities.User", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()

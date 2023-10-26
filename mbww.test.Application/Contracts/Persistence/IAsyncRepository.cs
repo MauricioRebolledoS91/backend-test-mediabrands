@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace mbww.test.Application.Contracts.Persistence
+namespace SalesDatePrediction.test.Application.Contracts.Persistence
 {
     public interface IAsyncRepository<T> where T : class
     {
@@ -13,6 +13,5 @@ namespace mbww.test.Application.Contracts.Persistence
         Task<T> AddAsync(T entity);
         Task UpdateAsync(T entity);
         Task DeleteAsync(T entity);
-        Task<Domain.Entities.User> GetByUserNameAsync(string userName);
     }
 }

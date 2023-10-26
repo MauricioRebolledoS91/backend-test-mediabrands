@@ -1,4 +1,4 @@
-namespace mbww.test.Api
+namespace SalesDatePrediction.test.Api
 {
     public class WeatherForecast
     {

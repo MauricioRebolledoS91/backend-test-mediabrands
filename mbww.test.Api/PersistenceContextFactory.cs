@@ -1,25 +1,25 @@
 ﻿using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.EntityFrameworkCore;
-using mbww.test.Infrastructure.Context;
+using SalesDatePrediction.test.Infrastructure.Context;
 
-namespace mbww.test.Api
+namespace SalesDatePrediction.test.Api
 {
-    public class PersistenceContextFactory : IDesignTimeDbContextFactory<MbwwTestDbContext>
+    public class PersistenceContextFactory : IDesignTimeDbContextFactory<SalesDatePredictionTestDbContext>
     {
-        public MbwwTestDbContext CreateDbContext(string[] args)
+        public SalesDatePredictionTestDbContext CreateDbContext(string[] args)
         {
             var Config = new ConfigurationBuilder()
                .SetBasePath(Directory.GetCurrentDirectory())
                .AddJsonFile("appsettings.json")
                .Build();
 
-            var optionsBuilder = new DbContextOptionsBuilder<MbwwTestDbContext>();
+            var optionsBuilder = new DbContextOptionsBuilder<SalesDatePredictionTestDbContext>();
             optionsBuilder.UseSqlServer(Config.GetConnectionString("testDb"), sqlopts =>
             {
                 sqlopts.MigrationsHistoryTable("_MigrationHistory", Config.GetValue<string>("SchemaName"));
             });
 
-            return new MbwwTestDbContext(optionsBuilder.Options);
+            return new SalesDatePredictionTestDbContext(optionsBuilder.Options);
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace mbww.test.Domain
+﻿namespace SalesDatePrediction.test.Domain
 {
     public class Class1
     {

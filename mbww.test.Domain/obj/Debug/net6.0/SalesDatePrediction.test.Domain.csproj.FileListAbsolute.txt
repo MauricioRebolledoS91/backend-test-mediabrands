@@ -1,0 +1,12 @@
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Domain\bin\Debug\net6.0\SalesDatePrediction.test.Domain.deps.json
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Domain\bin\Debug\net6.0\SalesDatePrediction.test.Domain.dll
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Domain\bin\Debug\net6.0\SalesDatePrediction.test.Domain.pdb
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Domain\obj\Debug\net6.0\SalesDatePrediction.test.Domain.csproj.AssemblyReference.cache
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Domain\obj\Debug\net6.0\SalesDatePrediction.test.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Domain\obj\Debug\net6.0\SalesDatePrediction.test.Domain.AssemblyInfoInputs.cache
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Domain\obj\Debug\net6.0\SalesDatePrediction.test.Domain.AssemblyInfo.cs
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Domain\obj\Debug\net6.0\SalesDatePrediction.test.Domain.csproj.CoreCompileInputs.cache
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Domain\obj\Debug\net6.0\SalesDatePrediction.test.Domain.dll
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Domain\obj\Debug\net6.0\refint\SalesDatePrediction.test.Domain.dll
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Domain\obj\Debug\net6.0\SalesDatePrediction.test.Domain.pdb
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Domain\obj\Debug\net6.0\ref\SalesDatePrediction.test.Domain.dll

@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "mbww.test.Api": {
+    "SalesDatePrediction.test.Api": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

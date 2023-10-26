@@ -1,22 +1,28 @@
 ﻿using AutoMapper;
-using mbww.test.Application.User.Commands.CreateUser;
-using mbww.test.Application.User.Commands.UpdateUser;
-using mbww.test.Application.User.Queries.GetUserList;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using SalesDatePrediction.test.Application.Employee.Queries.GetEmployeeList;
+using SalesDatePrediction.test.Application.Order.Commands.CreateOrder;
+using SalesDatePrediction.test.Application.Order.Queries.GetOrdersByCustomer;
+using SalesDatePrediction.test.Application.Product.GetProductList;
+using SalesDatePrediction.test.Application.Shippers.Queries.GetSshipperList;
 
-namespace mbww.test.Application.Profiles
+namespace SalesDatePrediction.test.Application.Profiles
 {
     public class MappingProfile : Profile
     {
         public MappingProfile()
         {
-            CreateMap<Domain.Entities.User, CreateUserDto>();
-            CreateMap<Domain.Entities.User, UserListVm>();
-            CreateMap<Domain.Entities.User, UpdateUserCommand>().ReverseMap();
+
+            CreateMap<Domain.Entities.Order, OrderListDto>();
+
+            CreateMap<Domain.Entities.Shipper, ShipperDto>();
+
+            CreateMap<Domain.Entities.Product, ProductDto>();
+
+            CreateMap<Domain.Entities.Order, OrderCreationDto>().ReverseMap();
+
+            CreateMap<Domain.Entities.Employee, EmployeeDto>()
+                .ForMember(dest => dest.FullName, opt => opt.MapFrom(src => src.FirstName + " " + src.LastName))
+                .ForMember(dest => dest.EmpId, opt => opt.MapFrom(src => src.EmpId));
         }       
     }
 }

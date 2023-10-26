@@ -1,0 +1,17 @@
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Infrastructure\bin\Debug\net6.0\SalesDatePrediction.test.Infrastructure.deps.json
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Infrastructure\bin\Debug\net6.0\SalesDatePrediction.test.Infrastructure.dll
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Infrastructure\bin\Debug\net6.0\SalesDatePrediction.test.Infrastructure.pdb
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Infrastructure\bin\Debug\net6.0\SalesDatePrediction.test.Application.dll
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Infrastructure\bin\Debug\net6.0\SalesDatePrediction.test.Domain.dll
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Infrastructure\bin\Debug\net6.0\SalesDatePrediction.test.Application.pdb
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Infrastructure\bin\Debug\net6.0\SalesDatePrediction.test.Domain.pdb
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Infrastructure\obj\Debug\net6.0\SalesDatePrediction.test.Infrastructure.csproj.AssemblyReference.cache
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Infrastructure\obj\Debug\net6.0\SalesDatePrediction.test.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Infrastructure\obj\Debug\net6.0\SalesDatePrediction.test.Infrastructure.AssemblyInfoInputs.cache
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Infrastructure\obj\Debug\net6.0\SalesDatePrediction.test.Infrastructure.AssemblyInfo.cs
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Infrastructure\obj\Debug\net6.0\SalesDatePrediction.test.Infrastructure.csproj.CoreCompileInputs.cache
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Infrastructure\obj\Debug\net6.0\SalesDatePrediction.test.Infrastructure.csproj.CopyComplete
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Infrastructure\obj\Debug\net6.0\SalesDatePrediction.test.Infrastructure.dll
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Infrastructure\obj\Debug\net6.0\refint\SalesDatePrediction.test.Infrastructure.dll
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Infrastructure\obj\Debug\net6.0\SalesDatePrediction.test.Infrastructure.pdb
+C:\CodificoTest\backend-test-mediabrands\mbww.test.Infrastructure\obj\Debug\net6.0\ref\SalesDatePrediction.test.Infrastructure.dll

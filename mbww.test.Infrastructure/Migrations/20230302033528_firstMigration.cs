@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace mbww.test.Infrastructure.Migrations
+namespace SalesDatePrediction.test.Infrastructure.Migrations
 {
     public partial class firstMigration : Migration
     {

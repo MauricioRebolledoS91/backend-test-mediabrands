@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using mbww.test.Infrastructure.Context;
+using SalesDatePrediction.test.Infrastructure.Context;
 
-namespace mbww.test.Infrastructure.Migrations
+namespace SalesDatePrediction.test.Infrastructure.Migrations
 {
-    [DbContext(typeof(MbwwTestDbContext))]
+    [DbContext(typeof(SalesDatePredictionTestDbContext))]
     [Migration("20230302033528_firstMigration")]
     partial class firstMigration
     {
@@ -21,7 +21,7 @@ namespace mbww.test.Infrastructure.Migrations
                 .HasAnnotation("ProductVersion", "5.0.17")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("mbww.test.Domain.Entities.User", b =>
+            modelBuilder.Entity("SalesDatePrediction.test.Domain.Entities.User", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()

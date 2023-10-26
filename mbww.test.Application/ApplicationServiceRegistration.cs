@@ -2,7 +2,7 @@
 using System.Reflection;
 using MediatR;
 
-namespace mbww.test.Application
+namespace SalesDatePrediction.test.Application
 {
     public static class ApplicationServiceRegistration
     {

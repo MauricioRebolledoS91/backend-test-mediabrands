@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0WXy/dhMurfw41zX+eVPX1o9tA1xZ9svvTIstKG15UNnuJs4ZnzLhvt8fAQdgcOEm5xCgilYuK0bV3dXQ718vg==",
+  "dgSpecHash": "8FdBuQX58dpGN/sX7KSA2kbvEz6Ty83wqb8zkbPgFFbN2RGsXVHjHev/IgP3J3BAPDk1DcJEFj2JMHqe7mTTMg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\57311\\source\\repos\\mbww.test\\mbww.test.Domain\\mbww.test.Domain.csproj",
+  "projectFilePath": "C:\\CodificoTest\\backend-test-mediabrands\\mbww.test.Domain\\SalesDatePrediction.test.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

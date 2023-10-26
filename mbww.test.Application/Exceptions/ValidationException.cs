@@ -1,6 +1,6 @@
 ﻿using FluentValidation.Results;
 
-namespace mbww.test.Application.Exceptions
+namespace SalesDatePrediction.test.Application.Exceptions
 {
     public class ValidationException : ApplicationException
     {

@@ -1,20 +1,15 @@
-﻿using mbww.test.Application.Contracts.Persistence;
-using mbww.test.Domain.Entities;
-using mbww.test.Infrastructure.Context;
+﻿using SalesDatePrediction.test.Application.Contracts.Persistence;
+using SalesDatePrediction.test.Domain.Entities;
+using SalesDatePrediction.test.Infrastructure.Context;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace mbww.test.Infrastructure.Repositories
+namespace SalesDatePrediction.test.Infrastructure.Repositories
 {
     public class BaseRepository<T> : IAsyncRepository<T> where T : class
     {
-        protected readonly MbwwTestDbContext _dbContext;
+        protected readonly SalesDatePredictionTestDbContext _dbContext;
 
-        public BaseRepository(MbwwTestDbContext dbContext)
+        public BaseRepository(SalesDatePredictionTestDbContext dbContext)
         {
             _dbContext = dbContext;
         }
@@ -26,13 +21,9 @@ namespace mbww.test.Infrastructure.Repositories
 
         public async Task<IReadOnlyList<T>> ListAllAsync()
         {
-            return await _dbContext.Set<T>().ToListAsync();
+            return await _dbContext.Set<T>().DefaultIfEmpty().ToListAsync();
         }
 
-        public virtual async Task<User> GetByUserNameAsync(string userName)
-        {
-            return await _dbContext.Set<User>().FirstOrDefaultAsync(u => u.UserName == userName);
-        }
 
         public async Task<T> AddAsync(T entity)
         {
